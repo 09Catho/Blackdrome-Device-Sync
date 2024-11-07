@@ -1,0 +1,3 @@
+# Ignore adb executable
+adb.exe
+platform-tools/
