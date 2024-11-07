@@ -63,7 +63,7 @@ A Windows application that allows you to **wirelessly control your Android smart
    - Double-click on **`BlackdromeDeviceSync.exe`** to launch the application(might show windows defender error for that click on more info and run anyway).
 
 
-## Usage
+## Usage(USING EXE)
 
 1. **Prepare Your Android Device:**
 
@@ -103,6 +103,23 @@ A Windows application that allows you to **wirelessly control your Android smart
 7. **Disconnect When Finished:**
 
    - Click the **"Disconnect"** button in the application to safely disconnect your device.
+Using the PowerShell Script
+Create a Desktop Shortcut:
+
+Right-click on your desktop and select "New" > "Shortcut".
+
+In the "Type the location of the item:" field, enter the following command, replacing your user with your actual Windows username:
+
+mathematica
+Copy code
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File "C:\Users\your user\Desktop\Blackdrome_Device_Sync.ps1"
+Click "Next", name the shortcut (e.g., Blackdrome Device Sync), and click "Finish".
+
+Run the Application:
+
+Double-click the newly created shortcut to launch the application.
+
+Note: Ensure that the path to Blackdrome_Device_Sync.ps1 is correct. Adjust the path if your script is located elsewhere.
 
 ## Enabling Developer Mode and Wireless Debugging on Android
 
@@ -185,6 +202,7 @@ A Windows application that allows you to **wirelessly control your Android smart
   - Unstable Wi-Fi connections can affect file transfers.
 - **Firewall Settings**:
   - Ensure that your firewall is not blocking file transfer protocols.
+
 
 ## Acknowledgments
 
