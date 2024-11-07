@@ -7,7 +7,7 @@ Download
 
 
 <p align="center">
-  <a href="https://github.com/09Catho/Blackdrome-Device-Sync/releases/download/v1.0.0/Blackdrome-Device-Sync.zip">
+  <a href="[https://github.com/09Catho/Blackdrome-Device-Sync/releases/download/v1.0.0/Blackdrome-Device-Sync.zip](https://github.com/09Catho/Blackdrome-Device-Sync/archive/refs/tags/v1.0.0.zip)">
     <img src="https://img.shields.io/badge/Download-Blackdrome--Device--Sync.zip-blue?style=for-the-badge&logo=github" alt="Download Blackdrome-Device-Sync.zip">
   </a>
 </p>
