@@ -61,10 +61,7 @@ A Windows application that allows you to **wirelessly control your Android smart
 
    - Navigate to the extracted folder.
    - Double-click on **`BlackdromeDeviceSync.exe`** to launch the application(might show windows defender error for that click on more info and run anyway).
-6. **Using the Application:**
 
-   -Find IP Address of your smartphone under Wi-fi settings and input that in IP Address panel in Application.
-   -Click on browse button and select where the scrcpy script is saved.
 
 ## Usage
 
@@ -205,7 +202,8 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 - **ADB (Android Debug Bridge)** is **not included** due to licensing restrictions. Users must download it separately from the [official Android website](https://developer.android.com/studio/releases/platform-tools).
 
 
-**Disclaimer:** Use this application responsibly and ensure you have permission to control and transfer files with any devices you connect to. Wireless debugging should only be used on secure and trusted networks to prevent unauthorized access.
+**Disclaimer:** Use this application responsibly and ensure you have permission to control and transfer files with any devices you connect to. Wireless debugging should only be used on secure and trusted networks to prevent unauthorized access.  This project includes third-party software. Please ensure you comply with all licensing requirements of any third-party software you use. The author is not responsible for any misuse or legal issues arising from the distribution or use of this software.
+
 
 **Note:** The application is not digitally signed, which may cause Windows Defender to display a warning. Rest assured, the application is safe to use. Always download software from trusted sources.
 
