@@ -63,60 +63,39 @@ A Windows application that allows you to **wirelessly control your Android smart
    - Double-click on **`BlackdromeDeviceSync.exe`** to launch the application(might show windows defender error for that click on more info and run anyway).
 
 
-## Usage(USING EXE)
+## Usage
+### Using the Executable
+Run the Application:
+Navigate to the extracted folder (e.g., C:\BlackdromeDeviceSync).
 
-1. **Prepare Your Android Device:**
+Double-click on BlackdromeDeviceSync.exe to launch the application.
 
-   - Ensure **Developer Options** and **Wireless Debugging** are enabled on your Android device.
-   - Refer to [Enabling Developer Mode and Wireless Debugging on Android](#enabling-developer-mode-and-wireless-debugging-on-android) for detailed instructions.
+Note: If Windows Defender SmartScreen appears, click "More info" and then "Run anyway".
 
-2. **Connect Your Devices to the Same Wi-Fi Network:**
+Enter IP Address and Connect:
+In the application window:
 
-   - Both your Windows PC and Android smartphone must be connected to the same Wi-Fi network.
+Enter your Android device's IP address in the designated field.
+Click the "Connect" button.
+The application will:
 
-3. **Find Your Android Device's IP Address:**
-
-   - On your Android device:
-     - Go to **Settings > About phone > Status** (or **Settings > Network & internet > Wi-Fi > [Your Network]**).
-     - Note down the **IP address**.
-
-4. **Run the Application:**
-
-   - Navigate to the extracted folder (e.g., `C:\BlackdromeDeviceSync`).
-   - Double-click on **`BlackdromeDeviceSync.exe`** to launch the application.
-
-   > **Note:** If Windows Defender SmartScreen appears, click **"More info"** and then **"Run anyway"**.
-
-5. **Enter IP Address and Connect:**
-
-   - In the application window:
-     - Enter your Android device's **IP address** in the designated field.
-     - Click the **"Connect"** button.
-
-6. **Control Your Device and Transfer Files:**
-
-   - The application will:
-     - Connect to your device using ADB over Wi-Fi.
-     - Launch `scrcpy` to mirror and control your device.
-     - Enable high-speed file transfer capabilities.
-
-7. **Disconnect When Finished:**
-
-   - Click the **"Disconnect"** button in the application to safely disconnect your device.
-Using the PowerShell Script
+Connect to your device using ADB over Wi-Fi.
+Launch scrcpy to mirror and control your device.
+Enable file transfer capabilities.
+Disconnect When Finished:
+Click the "Disconnect" button in the application to safely disconnect your device.
+### Using the PowerShell Script
 Create a Desktop Shortcut:
-
 Right-click on your desktop and select "New" > "Shortcut".
 
 In the "Type the location of the item:" field, enter the following command, replacing your user with your actual Windows username:
 
-mathematica
+powershell
 Copy code
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File "C:\Users\your user\Desktop\Blackdrome_Device_Sync.ps1"
 Click "Next", name the shortcut (e.g., Blackdrome Device Sync), and click "Finish".
 
 Run the Application:
-
 Double-click the newly created shortcut to launch the application.
 
 Note: Ensure that the path to Blackdrome_Device_Sync.ps1 is correct. Adjust the path if your script is located elsewhere.
