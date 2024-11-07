@@ -197,9 +197,13 @@ A Windows application that allows you to **wirelessly control your Android smart
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
----
+### Third-Party Licenses
+
+- **scrcpy** is included under the Apache License 2.0. See `scrcpy/LICENSE` for details.
+- **ADB (Android Debug Bridge)** is **not included** due to licensing restrictions. Users must download it separately from the [official Android website](https://developer.android.com/studio/releases/platform-tools).
+
 
 **Disclaimer:** Use this application responsibly and ensure you have permission to control and transfer files with any devices you connect to. Wireless debugging should only be used on secure and trusted networks to prevent unauthorized access.
 
