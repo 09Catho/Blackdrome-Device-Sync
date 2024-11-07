@@ -1,7 +1,16 @@
 # Blackdrome Device Sync
 
 A Windows application that allows you to **wirelessly control your Android smartphone** from your PC and **transfer files** at high speeds up to **1.2 Gbps**. With a simple and intuitive interface, just enter your phone's IP address, click connect, and you're ready to go!
+Download
+## Download
 
+
+
+<p align="center">
+  <a href="https://github.com/09Catho/Blackdrome-Device-Sync/releases/download/v1.0.0/Blackdrome-Device-Sync.zip">
+    <img src="https://img.shields.io/badge/Download-Blackdrome--Device--Sync.zip-blue?style=for-the-badge&logo=github" alt="Download Blackdrome-Device-Sync.zip">
+  </a>
+</p>
 > **Note:** Windows Defender may display a warning since the application is not digitally signed. Please see the [Troubleshooting](#troubleshooting) section for more details.
 
 ## Table of Contents
