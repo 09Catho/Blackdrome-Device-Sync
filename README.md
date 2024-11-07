@@ -239,6 +239,9 @@ We welcome contributions! If you'd like to contribute to this project, please fo
 If you have any questions or need assistance, feel free to open an issue on the GitHub repository or contact the maintainer:
 
 - **GitHub**: [09Catho](https://github.com/09Catho)
+## Acknowledgments
+
+- **[scrcpy](https://github.com/Genymobile/scrcpy)**: Included under the Apache License 2.0. See `scrcpy/LICENSE` for details.
 
 ---
 
