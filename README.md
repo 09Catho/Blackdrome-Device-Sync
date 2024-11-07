@@ -34,24 +34,37 @@ A Windows application that allows you to **wirelessly control your Android smart
 
 ## Download and Installation
 
+## Download and Installation
+
 1. **Download the Blackdrome Device Sync Package:**
 
-   - Visit the [GitHub repository](https://github.com/09Catho/Blackdrome-Device-Sync) of **09Catho**.
+   - Visit the [GitHub repository](https://github.com/09Catho/Blackdrome-Device-Sync).
    - Go to the [Releases](https://github.com/09Catho/Blackdrome-Device-Sync/releases) section.
    - Download the latest version of **Blackdrome-Device-Sync.zip**.
 
-2. **Extract the Zip File:**
+2. **Download and Install ADB:**
+
+   - **Important:** `adb.exe` is not included due to licensing restrictions.
+   - Download the **Android SDK Platform Tools** from the [official Android website](https://developer.android.com/studio/releases/platform-tools).
+   - Extract the contents to a folder (e.g., `C:\PlatformTools`).
+
+3. **Prepare the Application:**
+
+   - Copy `adb.exe` from the `platform-tools` folder to the `scrcpy` folder inside `BlackdromeDeviceSync`.
+
+4. **Extract the Blackdrome Device Sync Zip File:**
 
    - Right-click on the downloaded `Blackdrome-Device-Sync.zip` file.
    - Select **"Extract All..."** and choose a destination folder (e.g., `C:\BlackdromeDeviceSync`).
 
-3. **Review the Extracted Contents:**
+5. **Run the Application:**
 
-   - The extracted folder should contain:
-     - **BlackdromeDeviceSync.exe**: The main application executable.
-     - **scrcpy** folder: Contains `scrcpy.exe` and necessary files.
-     - **adb.exe**: Android Debug Bridge executable.
-     - **LICENSE**, **README.md**, and other documentation files.
+   - Navigate to the extracted folder.
+   - Double-click on **`BlackdromeDeviceSync.exe`** to launch the application(might show windows defender error for that click on more info and run anyway).
+6. **Using the Application:**
+
+   -Find IP Address of your smartphone under Wi-fi settings and input that in IP Address panel in Application.
+   -Click on browse button and select where the scrcpy script is saved.
 
 ## Usage
 
